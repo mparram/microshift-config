@@ -5,7 +5,7 @@ metadata:
 spec:
   registrationImagePullSpec: "registry.redhat.io/rhacm2/registration-rhel8@sha256:3321c3060bf6d75a2e0b184a0e7496fb799438faac3942370fe2d324c70af76e"
   workImagePullSpec: "registry.redhat.io/rhacm2/work-rhel8@sha256:2dbcfa945a9d791988da52ef828dc9d674d4e33a372e21b719761e4d3b6a555a"
-  clusterName: {{ .clustername }}
+  clusterName: ostree-demo
   namespace: "open-cluster-management-agent"
   nodePlacement:
     tolerations:
