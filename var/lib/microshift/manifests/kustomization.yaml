@@ -3,4 +3,4 @@ kind: Kustomization
 
 resources:
   - https://github.com/rciots/edge-cam.git/manifests
-
+  - https://github.com/rciots/edge-ws-connector.git/manifests
